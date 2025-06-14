@@ -24,19 +24,36 @@ public class app {
         aluno2.nome = "Marivaldo";
         aluno2.matricula = m;
 
-        System.out.println("Alunos");
-        System.out.println("Nome: "+aluno.nome);
-        System.out.println("Idade: "+aluno.idade);
-        System.out.println("Matrícula Código: "+aluno.matricula.numero);
-        System.out.println("Matrícula Status: "+aluno.matricula.status);
-        System.out.println("Matrícula Data: "+aluno.matricula.dataHora); 
+        //Métodos proporcionam
+        //Reaproveitamento de código (código limpo)
+        //Manutenção rápida e segura (solidez)
+        System.out.println("\n##### Alunos #####");
+        
+        aluno.imprimirDados(1);
+        aluno2.imprimirDados(2);
+               
 
 
-        System.out.println("\nNome: "+aluno2.nome);
-        System.out.println("Idade: "+aluno2.idade);
-        System.out.println("Matrícula Código: "+aluno2.matricula.numero);
-        System.out.println("Matrícula Status: "+aluno2.matricula.status);
-        System.out.println("Matrícula Data: "+aluno2.matricula.dataHora);
+
+
+
+
+
+
+
+        //System.out.println("Alunos");
+        //System.out.println("Nome: "+aluno.nome);
+        //System.out.println("Idade: "+aluno.idade);
+        //System.out.println("Matrícula Código: "+aluno.matricula.numero);
+        //System.out.println("Matrícula Status: "+aluno.matricula.status);
+        //System.out.println("Matrícula Data: "+aluno.matricula.dataHora); 
+
+
+        //System.out.println("\nNome: "+aluno2.nome);
+        //System.out.println("Idade: "+aluno2.idade);
+        //System.out.println("Matrícula Código: "+aluno2.matricula.numero);
+        //System.out.println("Matrícula Status: "+aluno2.matricula.status);
+        //System.out.println("Matrícula Data: "+aluno2.matricula.dataHora);
             
 
     }
