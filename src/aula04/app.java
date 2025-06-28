@@ -32,15 +32,6 @@ public class app {
         aluno.imprimirDados(1);
         aluno2.imprimirDados(2);
                
-
-
-
-
-
-
-
-
-
         //System.out.println("Alunos");
         //System.out.println("Nome: "+aluno.nome);
         //System.out.println("Idade: "+aluno.idade);
