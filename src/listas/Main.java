@@ -54,10 +54,10 @@ public class Main {
         // System.out.println(" Valor Produto: " + pedido.produtos.get(2).valor);
 
 
-        //fantagens do for each simplificar enão repetir os gets.
+        //Vantagens do for each simplificar enão repetir os gets.
         for(Produto p : pedido.produtos){
             System.out.println(" Nome Produto: " + p.nome);
-            System.out.println(" Valor Produto: " +p.valor);
+            System.out.println(" Valor Produto: " + p.valor);
         }
     }
 }
