@@ -1,4 +1,4 @@
-package carrinhodecompra;
+package aula05.carrinhodecompra;
 
     public class Produto {
         Integer id;

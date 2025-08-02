@@ -1,4 +1,4 @@
-package listas;
+package aula06_listas;
 
 public class Produto {
     int id;

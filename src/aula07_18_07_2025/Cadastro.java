@@ -56,7 +56,7 @@ public class Cadastro {
         //FOR EACH
         for(Musica musica : playlist.getMusicas()){
             System.out.println("ID: " + musica.getId());
-            System.out.println("Título: " +musica.getTitulo());
+            System.out.println("Título: " + musica.getTitulo());
             System.out.println("Autor: " + musica.getAutor());
 
         }

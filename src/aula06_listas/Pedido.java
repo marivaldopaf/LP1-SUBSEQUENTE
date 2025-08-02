@@ -1,4 +1,4 @@
-package listas;
+package aula06_listas;
 
 import java.time.LocalDateTime;
 import java.util.List;
