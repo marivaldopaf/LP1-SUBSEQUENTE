@@ -1,0 +1,29 @@
+package aula11_29_08_2025;
+
+import java.util.UUID;
+
+public class Pessoa {
+    private UUID id;
+    private String nome;
+   
+    public Pessoa() {
+    }
+    public Pessoa(UUID id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
+    public UUID getId() {
+        return id;
+    }
+    public void setId(UUID id) {
+        this.id = id;
+    }
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    
+}
